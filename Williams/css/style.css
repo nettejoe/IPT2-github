@@ -169,7 +169,7 @@ button:active{
     height: 600px;
     background-color: #FFFFFF;
     padding: 2% 10% 0px 10%;
-    margin: center;
+    
 }
 .services-text p:nth-child(1){
     font-family: calibri;
@@ -177,10 +177,10 @@ button:active{
     color: #3e3d3d;
     font-size: 50px;
     line-height: 0px;
-    
     left: 50%;
     bottom: 10px;
-    transform: translate(125%);
+    text-align: center;
+    transform: translate(100%);
 }
 .services-text p:nth-child(2){
     font-family: calibri;
@@ -188,20 +188,17 @@ button:active{
     color: #3e3e3d;
     font-size: 15px;
     line-height: 5px;
-  
-   
-    transform: translate(132%);
+    text-align: center;
+    transform: translate(100%);
 }
 .services-text p:nth-child(3){
     font-family: calibri;
     color: #7e7d7d;
+    text-align: center;
     transform: translate(100%);
+    
 }
-.services-text p:nth-child(4){
-    font-family: calibri;
-    color: #7e7d7d;
-    transform: translate(105%);
-}
+
 .services-text{
     width: 500px;
     margin: 50px 0px;
